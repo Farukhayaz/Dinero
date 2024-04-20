@@ -13,7 +13,7 @@ export default function About() {
         <img className="w-1/2 mb-20" src="/images/Rectangle 799.png" alt="Keychain" />
       </div>
       <div className="px-6 flex justify-end py-2 mt-[-60px]">
-      <img className="w-[35%] h-[100px] mr-10 mb-10" src="/images/home.png" alt="Keychain" />
+      <img className="w-[35%] xl:h-[100px] lg:h-[100px] md:h-[100px] h-[60px] mr-5 mb-10" src="/images/home.png" alt="Keychain" />
       </div>
     </div>
             </div>
