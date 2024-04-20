@@ -36,9 +36,9 @@ export default function Hero() {
      
         <div className="xl:w-[90%] lg:w-[90%] md:w-[90%] w-[100%] mx-auto"  style={{ backgroundImage: `url(${images[currentImageIndex]})`,backgroundSize:"100% 100%" }}>
          
-<div className="xl:h-[80vh] lg:h-[80vh] md:h-[80vh] h-[66vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
-<h1 className="xl:text-[40px] lg:text-[40px] md:text-[40px] text-[24px] text-white text-start xl:w-[58%] lg:w-[58%] md:w-[58%] w-[88%] mb-8 font-[600]" style={{fontFamily:"Poppins"}}>Buy or sell your property without commission</h1>
-<div className="xl:w-[65%] lg:w-[65%] md:w-[65%] w-[100%]   shadow">
+<div className="xl:h-[80vh] lg:h-[80vh] md:h-[50vh] h-[66vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
+<h1 className="xl:text-[40px] lg:text-[40px] md:text-[40px] text-[24px] text-white text-start xl:w-[58%] lg:w-[58%] md:w-[70%] w-[88%] mb-8 font-[600]" style={{fontFamily:"Poppins"}}>Buy or sell your property without commission</h1>
+<div className="xl:w-[65%] lg:w-[65%] md:w-[90%] w-[100%]   shadow">
       <div className="flex justify-between  items-center">
         <div className="">
         <button
@@ -65,7 +65,7 @@ export default function Hero() {
     <div id="home-tab-content" className={`tab-content ${activeTab === 'home' ? 'active' : 'hidden'}`}>
         {/* Home tab content */}
         <div className="flex justify-around flex-wrap items-center">
-        <div className="relative  flex flex-col">
+           <div className="relative xl:w-auto lg:w-auto md:w-auto w-[50%] flex flex-col">
     <label htmlFor="dates" className="  text-[14px] text-start ml-5  font-medium">
       Where
     </label>
@@ -82,7 +82,7 @@ export default function Hero() {
     </select>
   
   </div>
-  <div className="relative  flex flex-col">
+  <div className="relative xl:w-auto lg:w-auto md:w-auto w-[50%] flex flex-col">
     <label htmlFor="dates" className="  text-[14px] text-start ml-5  font-medium">
       When
     </label>
@@ -107,7 +107,7 @@ export default function Hero() {
       <div id="buy-tab-content" className={`tab-content ${activeTab === 'buy' ? 'active' : 'hidden'}`}>
         {/* Buy tab content */}
         <div className="flex justify-around flex-wrap items-center">
-        <div className="relative  flex flex-col">
+           <div className="relative xl:w-auto lg:w-auto md:w-auto w-[50%] flex flex-col">
     <label htmlFor="dates" className="  text-[14px] text-start ml-5  font-medium">
       Where
     </label>
@@ -124,7 +124,7 @@ export default function Hero() {
     </select>
   
   </div>
-  <div className="relative  flex flex-col">
+  <div className="relative xl:w-auto lg:w-auto md:w-auto w-[50%] flex flex-col">
     <label htmlFor="dates" className="  text-[14px] text-start ml-5  font-medium">
       When
     </label>
@@ -142,14 +142,14 @@ export default function Hero() {
   
   </div>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold h-[45px] px-4 rounded">
-            Buy Home
+          Browse Buy 
           </button>
         </div>
       </div>
       <div id="sell-tab-content" className={`tab-content ${activeTab === 'sell' ? 'active' : 'hidden'}`}>
         {/* Sell tab content */}
-        <div className="flex justify-around flex-wrap items-center">
-        <div className="relative  flex flex-col">
+        <div className="flex justify-around  flex-wrap items-center">
+        <div className="relative xl:w-auto lg:w-auto md:w-auto w-[50%] flex flex-col">
     <label htmlFor="dates" className="  text-[14px] text-start ml-5  font-medium">
       Where
     </label>
@@ -166,7 +166,7 @@ export default function Hero() {
     </select>
   
   </div>
-  <div className="relative  flex flex-col">
+  <div className="relative xl:w-auto lg:w-auto md:w-auto w-[50%] flex flex-col">
     <label htmlFor="dates" className="  text-[14px] text-start ml-5  font-medium">
       When
     </label>
@@ -184,7 +184,7 @@ export default function Hero() {
   
   </div>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold h-[45px] px-4 rounded">
-            Sell Home
+          Browse Sell 
           </button>
         </div>
       </div>
