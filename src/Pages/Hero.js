@@ -50,7 +50,7 @@ export default function Hero() {
           className="w-full border bg-cover bg-center"
           style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
         >
-          <div className="xl:h-[80vh] lg:h-[80vh] md:h-[50vh] h-[50vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
+          <div className="xl:h-[80vh] lg:h-[80vh] md:h-[50vh] h-[60vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
             <h1
               className="xl:text-[40px] lg:text-[40px] md:text-[40px] text-[24px] text-white text-start xl:w-[58%] lg:w-[58%] md:w-[70%] w-[88%] mb-8 font-[600]"
               style={{ fontFamily: "Poppins" }}
@@ -250,13 +250,13 @@ export default function Hero() {
             </div>
           </div>
           <button
-            className="absolute xl:top-[42%] lg:top-[42%] md:top-[42%] top-[25%] xl:left-12  lg:left-12 md:left-12 left-2 transform -translate-y-1/2 bg-white  text-[#1488CC] border-2 border-[#1488CC] xl:p-2 lg:p-2 md:p-2 p-1 xl:text-[25px] lg:text-[25px] md:text-[25px] text-[18px] rounded-full"
+            className="absolute xl:top-[42%] lg:top-[42%] md:top-[42%] top-[42%] xl:left-12  lg:left-12 md:left-12 left-2 transform -translate-y-1/2 bg-white  text-[#1488CC] border-2 border-[#1488CC] xl:p-2 lg:p-2 md:p-2 p-1 xl:text-[25px] lg:text-[25px] md:text-[25px] text-[18px] rounded-full"
             onClick={goToPreviousSlide}
           >
             <IoIosArrowBack />
           </button>
           <button
-            className="absolute xl:top-[42%] lg:top-[42%] md:top-[42%] top-[25%] xl:right-12 lg:right-12 md:right-12 right-2  transform -translate-y-1/2 bg-white  text-[#1488CC] border-2 border-[#1488CC] xl:p-2 lg:p-2 md:p-2 p-1 xl:text-[25px] lg:text-[25px] md:text-[25px] text-[18px] rounded-full"
+            className="absolute xl:top-[42%] lg:top-[42%] md:top-[42%] top-[42%] xl:right-12 lg:right-12 md:right-12 right-2  transform -translate-y-1/2 bg-white  text-[#1488CC] border-2 border-[#1488CC] xl:p-2 lg:p-2 md:p-2 p-1 xl:text-[25px] lg:text-[25px] md:text-[25px] text-[18px] rounded-full"
             onClick={goToNextSlide}
           >
             <IoIosArrowForward />
