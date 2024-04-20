@@ -2,7 +2,7 @@ import './App.css';
 import Hero from './Pages/Hero';
 import About from './Pages/about';
 // import Amazing from './Pages/amazing';
-// import Feature from './Pages/feature';
+import Feature from './Pages/feature';
 // import Project from './Pages/project';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
     < Hero/>
     <About/>
-    {/* <Feature/> */}
+    <Feature/>
     {/* <Project/> */}
     {/* <Amazing/> */}
     </>

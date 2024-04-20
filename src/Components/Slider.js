@@ -41,7 +41,7 @@ export default function Slider() {
       <div className="w-[90%] mx-auto">
         <Swiper
           slidesPerView={1}
-          spaceBetween={10}
+          spaceBetween={50}
           breakpoints={{
             640: {
               slidesPerView: 2,

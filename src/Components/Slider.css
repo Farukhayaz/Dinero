@@ -10,12 +10,15 @@
     font-size: 18px;
     background: #fff;
     border: 2px solid white;
+    border-bottom: 8px solid white;
+
     border-radius: 10px;
     /* Center slide text vertically */
   }
   .swiper-slide:hover {
     border: 2px solid #1488CC;
     border-bottom: 8px solid #1488CC;
+    cursor: pointer;
     transform: scale(1.05); /* Increase the scale to zoom in */
     transition: transform 0.3s ease; /* Add a smooth transition effect */
   }
