@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
-import { IoIosArrowBack ,IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 export default function Hero() {
   const [activeTab, setActiveTab] = useState("home");
@@ -253,7 +253,7 @@ export default function Hero() {
             className="absolute xl:top-[42%] lg:top-[42%] md:top-[42%] top-[25%] xl:left-12  lg:left-12 md:left-12 left-2 transform -translate-y-1/2 bg-white  text-[#1488CC] border-2 border-[#1488CC] xl:p-2 lg:p-2 md:p-2 p-1 xl:text-[25px] lg:text-[25px] md:text-[25px] text-[18px] rounded-full"
             onClick={goToPreviousSlide}
           >
-            <IoIosArrowBack/>
+            <IoIosArrowBack />
           </button>
           <button
             className="absolute xl:top-[42%] lg:top-[42%] md:top-[42%] top-[25%] xl:right-12 lg:right-12 md:right-12 right-2  transform -translate-y-1/2 bg-white  text-[#1488CC] border-2 border-[#1488CC] xl:p-2 lg:p-2 md:p-2 p-1 xl:text-[25px] lg:text-[25px] md:text-[25px] text-[18px] rounded-full"
@@ -263,10 +263,15 @@ export default function Hero() {
           </button>
         </div>
         <div className="flex justify-end absolute mt-[-30px]  w-[90%] ">
-        {images.map((image, index) => (
-          <img key={index} src={image} alt={`Image ${index + 1}`} className="xl:h-14 lg:h-14 md:h-14 h-10 xl:w-16 lg:w-16 md:w-16 w-10 mr-5" />
-        ))}
-      </div>
+          {images.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt="img"
+              className="xl:h-12 lg:h-12 md:h-12 h-10 xl:w-14 lg:w-14 md:w-14 w-10 mr-5"
+            />
+          ))}
+        </div>
       </div>
     </>
   );
