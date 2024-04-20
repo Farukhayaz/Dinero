@@ -8,7 +8,6 @@
     position: relative;
     display: block;
     width: calc(192% + 1.3px);
-    height: 140px;
     transform: rotateY(180deg);
 }
 

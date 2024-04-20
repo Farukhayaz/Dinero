@@ -1,10 +1,10 @@
 import React from "react";
 import { Map } from "./Map";
 
-export default function Footer() {
+export default function Amazing() {
   return (
     <div>
-      <footer class="bg-white dark:bg-gray-900">
+     <footer className="bg-white shadow-md p-5 mb-[-24px] " style={{ backgroundImage: "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/group2.png)", backgroundSize: "cover" }}>
         <div class=" p-6 mx-auto">
           <div class=" lg:flex w-[100%]">
             <div class="w-full -mx-6 lg:w-[21%] ">
@@ -13,19 +13,19 @@ export default function Footer() {
                   <img class="w-auto h-16" src="/images/logo.png" alt="" />
                 </a>
 
-                <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
+                <p class="max-w-sm mt-2 text-white ">
                   Doha, Qatar
                 </p>
-                <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
-                  Call us: 123-456-7890
+                <p class="max-w-sm mt-2 text-white ">
+                  <snap class="font-semibold text-white">Call us:</snap> 123-456-7890
                 </p>
-                <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
+                <p class="max-w-sm mt-2 text-white ">
                   Terms of Use
                 </p>
-                <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
+                <p class="max-w-sm mt-2 text-white ">
                   Privacy Policy
                 </p>
-                <p class="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
+                <p class="max-w-sm mt-2 text-white ">
                   Copyright @ 2022. DINERO <br /> all Rights Reserved
                 </p>
               </div>
@@ -34,213 +34,194 @@ export default function Footer() {
             <div class="mt-6 lg:mt-0 lg:flex-1 ">
               <div class="grid grid-cols-2 gap-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                 <div>
-                  <h3 class="text-gray-700 uppercase dark:text-white">
+                  <h3 class="text-white font-bold uppercase dark:text-white">
                     Our Products
                   </h3>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  <ul>
+                  <li
+                    class="block mt-2 text-[13px] text-white "
                   >
                     The Support Suite
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white "
                   >
                     The Sales Suite
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white "
                   >
                     Support
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white "
                   >
                     Guide
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white "
                   >
                     Explore
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white "
                   >
                     Connect
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white "
                   >
                     Integrations & Apps
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Product Updates
-                  </a>
+                  </li>
+                  </ul>
                 </div>
 
                 <div>
-                  <h3 class="text-gray-700 uppercase dark:text-white">
+                  <h3 class="text-white font-bold uppercase dark:text-white">
                     Top Features
                   </h3>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Ticketing System
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Knowledge Base
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Community Forums
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Help Desk Software
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Security
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Human Resources
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Media
-                  </a>
+                  </li>
                 </div>
 
                 <div>
-                  <h3 class="text-gray-700 uppercase dark:text-white">
+                  <h3 class="text-white font-bold uppercase dark:text-white">
                     Recources
                   </h3>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  <ul>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Product Support
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Request Demo
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Library
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Real Estate Blog
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Training
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Service & Partners
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Relate by Zendesk
-                  </a>
-                  <a
-                    href="#"
-                    class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline"
+                  </li>
+                  <li
+                    class="block mt-2 text-[13px] text-white"
                   >
                     Webinars
-                  </a>
+                  </li>
+                  </ul>
                 </div>
 
                 <div>
-                  <h3 class="text-gray-700 uppercase dark:text-white">
+                  <h3 class="text-white font-bold uppercase dark:text-white">
                     Company
                   </h3>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     About Us
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Press
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Investors
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Events
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Career
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Diversity & Inclusion
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Contact Us
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Sitemaps
                   </span>
                 </div>
                 <div>
-                  <h3 class="text-gray-700 uppercase dark:text-white">
+                  <h3 class="text-white font-bold uppercase dark:text-white">
                     Favourite Things
                   </h3>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     For Enterprise
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     For Startups
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     For Benchmarks
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     For Small Business
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     CRM Quadrant
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Experiences
                   </span>
-                  <span class="block mt-2 text-[13px] text-gray-600 dark:text-gray-400 hover:underline">
+                  <span class="block mt-2 text-[13px] text-white">
                     Trends
                   </span>
                 </div>
@@ -252,6 +233,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>
+  );
 }
