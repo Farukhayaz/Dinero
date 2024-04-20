@@ -50,7 +50,7 @@ export default function Hero() {
           className="w-full border bg-cover bg-center"
           style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
         >
-          <div className="xl:h-[80vh] lg:h-[80vh] md:h-[50vh] h-[60vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
+          <div className="xl:h-[80vh] lg:h-[80vh] md:h-[50vh] h-[40vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
             <h1
               className="xl:text-[40px] lg:text-[40px] md:text-[40px] text-[24px] text-white text-start xl:w-[58%] lg:w-[58%] md:w-[70%] w-[88%] mb-8 font-[600]"
               style={{ fontFamily: "Poppins" }}
