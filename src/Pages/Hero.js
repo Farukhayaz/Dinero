@@ -36,7 +36,7 @@ export default function Hero() {
      
         <div className="xl:w-[90%] lg:w-[90%] md:w-[90%] w-[100%] mx-auto"  style={{ backgroundImage: `url(${images[currentImageIndex]})`,backgroundSize:"100% 100%" }}>
          
-<div className="xl:h-[80vh] lg:h-[80vh] md:h-[50vh] h-[66vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
+<div className="xl:h-[80vh] lg:h-[80vh] md:h-[50vh] h-[60vh] xl:w-[87%] lg:w-[87%] md:w-[87%] w-[90%] flex flex-col justify-center  mx-auto">
 <h1 className="xl:text-[40px] lg:text-[40px] md:text-[40px] text-[24px] text-white text-start xl:w-[58%] lg:w-[58%] md:w-[70%] w-[88%] mb-8 font-[600]" style={{fontFamily:"Poppins"}}>Buy or sell your property without commission</h1>
 <div className="xl:w-[65%] lg:w-[65%] md:w-[90%] w-[100%]   shadow">
       <div className="flex justify-between  items-center">
