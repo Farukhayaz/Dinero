@@ -56,10 +56,10 @@ export default function About() {
           </div>
         </div>
       </section>
-{/* ----section2------------ */}
-     
-<Slider/>
-<div className="xl:w-[15%] lg:w-[15%] md:w-[15%] w-[35%] bg-blue-500 h-1 mx-auto mb-10 rounded"></div>
+      {/* ----section2------------ */}
+
+      <Slider />
+      <div className="xl:w-[15%] lg:w-[15%] md:w-[15%] w-[35%] bg-blue-500 h-1 mx-auto mb-10 rounded"></div>
     </>
   );
 }
