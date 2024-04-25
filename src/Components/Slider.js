@@ -8,7 +8,7 @@ import { VscWorkspaceTrusted } from "react-icons/vsc";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "./Slider.css";
+import "./Slider.scss";
 
 // import required modules
 

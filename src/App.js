@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Dont from './Pages/Dont';
 import Footer from './Pages/Footer';
 import Hero from './Pages/Hero';

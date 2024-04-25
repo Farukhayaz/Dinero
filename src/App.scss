@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$size: 100% 100%;
+$color: rgba(0, 0, 0, 0.075);
+
+.shadow-custom {
+  box-shadow: 0px 12px 24px 0px $color;
+}
+
+.img1{
+background-image: url(../public/images/Rectangle809.png);
+background-size: $size;
+}
+
+.img2{
+  background-image: url(../public/images/Rectangle808.png);
+  background-size: $size;
+  }

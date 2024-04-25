@@ -24,8 +24,8 @@ export default function Amazing() {
 
 <div className="xl:w-[90%] lg:w-[90%] md:w-[90%] w-[95%] flex flex-wrap justify-around py-4 mb-10 mx-auto bg-[#f3f9fc]">
 <div class="xl:w-[31%] lg:w-[31%] md:w-[31%] w-[90%] mt-10 bg-white  border-gray-200 rounded-lg">
-    <a href="#" className="flex justify-between w-[80%] mt-6 mx-auto">
-        <img class="h-16 rounded-t-lg " src="/images/Ellipse 8.png" alt="product image" />
+    <a href="/" className="flex justify-between w-[80%] mt-6 mx-auto">
+        <img class="h-16 rounded-t-lg " src="/images/Ellipse 8.png" alt="product_image" />
         <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -47,7 +47,7 @@ export default function Amazing() {
         </div>
     </a>
     <div class="px-5 pb-5">
-        <a href="#">
+        <a href="/">
             <h1 class="text-[27px] mt-6 font-semibold tracking-tight text-gray-900 dark:text-white">Amazing!</h1>
             <p className="mt-4 text-[15px]">
             Since I move to the new home with Homelun, I feel like this is my dream home. I would like to live here in the next couple of year.
@@ -56,8 +56,8 @@ export default function Amazing() {
     </div>
 </div>
 <div class="xl:w-[31%] lg:w-[31%] md:w-[31%] w-[90%] mt-10 bg-white  border-gray-200 rounded-lg">
-    <a href="#" className="flex justify-between w-[80%] mt-6 mx-auto">
-        <img class="h-16 rounded-t-lg " src="/images/Ellipse 8.png" alt="product image" />
+    <a href="/" className="flex justify-between w-[80%] mt-6 mx-auto">
+        <img class="h-16 rounded-t-lg " src="/images/Ellipse 8.png" alt="product_image" />
         <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -79,7 +79,7 @@ export default function Amazing() {
         </div>
     </a>
     <div class="px-5 pb-5">
-        <a href="#">
+        <a href="/">
             <h1 class="text-[27px] mt-6 font-semibold tracking-tight text-gray-900 dark:text-white">Amazing!</h1>
             <p className="mt-4 text-[15px]">
             Since I move to the new home with Homelun, I feel like this is my dream home. I would like to live here in the next couple of year.
@@ -88,8 +88,8 @@ export default function Amazing() {
     </div>
 </div>
 <div class="xl:w-[31%] lg:w-[31%] md:w-[31%] w-[90%] mt-10 bg-white  border-gray-200 rounded-lg">
-    <a href="#" className="flex justify-between w-[80%] mt-6 mx-auto">
-        <img class="h-16 rounded-t-lg " src="/images/Ellipse 8.png" alt="product image" />
+    <a href="/" className="flex justify-between w-[80%] mt-6 mx-auto">
+        <img class="h-16 rounded-t-lg " src="/images/Ellipse 8.png" alt="product_image" />
         <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
                 <svg class="w-4 h-4 text-blue-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -111,7 +111,7 @@ export default function Amazing() {
         </div>
     </a>
     <div class="px-5 pb-5">
-        <a href="#">
+        <a href="/">
             <h1 class="text-[27px] mt-6 font-semibold tracking-tight text-gray-900 dark:text-white">Amazing!</h1>
             <p className="mt-4 text-[15px]">
             Since I move to the new home with Homelun, I feel like this is my dream home. I would like to live here in the next couple of year.

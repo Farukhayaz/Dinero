@@ -20,13 +20,13 @@ export default function Navbar() {
             {/* Navbar items */}
             <ul className="hidden md:flex space-x-14 ml-20 font-medium">
               <li>
-                <a href="#" className="text-gray-700 hover:text-blue-500">Services</a>
+                <a href="/" className="text-gray-700 hover:text-blue-500">Services</a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-blue-500">Property Selling</a>
+                <a href="/" className="text-gray-700 hover:text-blue-500">Property Selling</a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-blue-500">Shop</a>
+                <a href="/" className="text-gray-700 hover:text-blue-500">Shop</a>
               </li>
             </ul>
           </div>
@@ -42,8 +42,8 @@ export default function Navbar() {
               </button>
               {showOptionsDropdown && (
                 <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-1">
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Headphone</a>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Speaker</a>
+                  <a href="/" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Headphone</a>
+                  <a href="/" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Speaker</a>
                 </div>
               )}
             </div>
@@ -54,9 +54,9 @@ export default function Navbar() {
               </button>
               {showUserDropdown && (
                 <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-1">
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Profile</a>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Settings</a>
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Logout</a>
+                  <a href="/" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Profile</a>
+                  <a href="/" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Settings</a>
+                  <a href="/" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100">Logout</a>
                 </div>
               )}
             </div>

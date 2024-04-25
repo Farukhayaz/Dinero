@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Dont.css"
+import "./Dont.scss"
 
 export default function Dont() {
   return (

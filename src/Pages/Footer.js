@@ -1,5 +1,5 @@
 import React from "react";
-import { Map } from "./Map";
+// import { Map } from "./Map";
 
 export default function Amazing() {
   return (
@@ -9,7 +9,7 @@ export default function Amazing() {
           <div class=" lg:flex w-[100%]">
             <div class="w-full -mx-6 lg:w-[21%] ">
               <div class="px-6">
-                <a href="#">
+                <a href="/">
                   <img class="w-auto h-16" src="/images/logo.png" alt="" />
                 </a>
 
@@ -228,7 +228,7 @@ export default function Amazing() {
               </div>
             </div>
             <div>
-              <Map />
+              {/* <Map /> */}
             </div>
           </div>
         </div>

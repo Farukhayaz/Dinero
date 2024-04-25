@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Hero.css";
+import "./Hero.scss";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 export default function Hero() {
